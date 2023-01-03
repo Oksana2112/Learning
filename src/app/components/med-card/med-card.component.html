@@ -1,0 +1,65 @@
+
+<div class="sheet">
+    <div class="institution">
+        <div class="p1">
+            <p>Найменування міністерства</p>
+            <p>Місцезнаходження закладу охорони здоров'я</p>
+            <p>  Код ЄДРПОУ________</p>
+        </div>
+        <div class="p2">
+            <p>МЕДИЧНА ДОКУМЕНТАЦІЯ</p>
+            <p> Форма первинної облікової документації</p>
+        </div>
+
+    </div>
+
+
+
+    <div class="information">
+        <h1> Медична карта стаціонарного хворого №___ </h1>
+        <ol>
+            <li> Дата госпіталізації : {{pacient.admission|date : 'd/M/yy'}} рік. </li>
+            <li> Прізвище, ім'я, по батькові пацієнта : {{pacient.name}} </li>
+            <li> Стать : {{pacient.sex}}</li>
+            <li> Група крові : {{pacient.blood_type}}</li>
+            <li> Резус приналежність : {{pacient.rhesus}}</li>
+            <li> Дата народження : {{pacient.birthday| date: 'd/M/yy'}} рік. </li>
+            <li> Вага : {{pacient.weight}} кг</li>
+            <li> Постійне місце проживання/перебування : {{pacient.adress}} </li>
+            <li>
+                <table>
+                    <caption> Результати аналізу крові</caption>
+                    <thead>
+                        <tr>
+                            <th>Номер п/п</th>
+                            <th>Показник</th>
+                            <th>Результат</th>
+                            <th>Одиниці вимірювання</th>
+                        </tr>
+                    </thead>
+                    <tr *ngFor="let analiz of pacient.analis">
+                        <td>1</td>
+                        <td></td>
+                        <td>2.3</td>
+                        <td>10^12/л</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td></td>
+                        <td>1.8</td>
+                        <td>г/л</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Лейкоцити</td>
+                        <td>1.5</td>
+                        <td>10^9/л</td>
+                    </tr>
+
+
+                </table>
+            </li>
+
+        </ol>
+    </div>
+</div>
