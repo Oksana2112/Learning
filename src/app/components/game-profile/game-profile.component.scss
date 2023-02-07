@@ -146,6 +146,11 @@ p {
         border-radius: 13px 0px 13px 0px;
     }
 }
+.properties-image{
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat
+}
 
 .armor-text{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -455,7 +460,7 @@ box-shadow: 0px 0px 3px 2px rgb(34, 32, 32);
 position: relative;
 }
 .star{
-    background-image: url(./assets/star22.png);
+    background-image: url(../../../assets/star22.png);
     background-position: center center;
     height: 114px;
     width: 114px;
@@ -470,7 +475,7 @@ position: relative;
     text-shadow: 3px 3px 5px black;
 }
 .monet{
-    background-image: url(./assets/monet.png);
+    background-image: url(../../../assets/monet.png);
     background-position: center center;
     height: 104px;
     width: 98px; 
@@ -481,7 +486,7 @@ position: relative;
   
 }
 .diamond{
-    background-image: url(./assets/diamond.png);
+    background-image: url(../../../assets/diamond.png);
     background-position: center center;
     height: 106px;
     width: 98px; 
@@ -491,7 +496,7 @@ position: relative;
     left: -27px;
 }
 .lightning{
-    background-image: url(./assets/lightning.png);
+    background-image: url(../../../assets/lightning.png);
     background-position: center center;
     height: 108px;
     width: 85px;
@@ -500,7 +505,7 @@ position: relative;
     left: 377px;
 }
 .armor-uniform{
-    background-image: url(./assets/armor-uniform.png); 
+    background-image: url(../../../assets/armor-uniform.png); 
     height: 38px;
     width: 38px;
     position: absolute; 
@@ -509,22 +514,18 @@ position: relative;
 }
 .personage {
     flex: 1 1 auto;
-    background-image: url(./assets/centr.jpg);
+    background-image: url(../../../assets/centr.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 .armor-form{
-    background-image: url(./assets/armor-uniform2.png); 
-    height: 178px;
-    width: 178px;
-    position: absolute; 
-    top: 21px;
-    left: 7px;
+    background-image: url(../../../assets/armor-uniform2.png); 
+   
 }
 .arrow{
-    background-image: url(./assets/arrow.png); 
+    background-image: url(../../../assets/arrow.png); 
     height: 86px;
     width: 70px;
     position: absolute; 
@@ -532,7 +533,7 @@ position: relative;
     left: 165px;
 }
 .armor-ring{
-    background-image: url(./assets/armor-ring.png); 
+    background-image: url(../../../assets/armor-ring.png); 
     height: 38px;
     width: 38px;
     position: absolute; 
@@ -540,16 +541,11 @@ position: relative;
     left: 0px;
 }
 .armor-ring2{
-    background-image: url(./assets/armor-ring2.png); 
-    height: 178px;
-    width: 178px;
-    position: absolute; 
-    top: 36px;
-    left: 26px;
-    background-repeat: no-repeat;
+    background-image: url(../../../assets/armor-ring2.png); 
+   
 } 
 .bottom-frame{
-    background-image: url(./assets/bottom-frame.png); 
+    background-image: url(../../../assets/bottom-frame.png); 
     height: 106px;
     width: 106px;
     position: absolute; 
@@ -557,7 +553,7 @@ position: relative;
     left: -6px;
 }
 .top-frame{
-    background-image: url(./assets/top-frame.png); 
+    background-image: url(../../../assets/top-frame.png); 
     height: 106px;
     width: 106px;
     position: absolute; 
@@ -565,7 +561,7 @@ position: relative;
     left: 99px;
 }
 .armor-foot{
-    background-image: url(./assets/armor-foot.png); 
+    background-image: url(../../../assets/armor-foot.png); 
     height: 38px;
     width: 38px;
     position: absolute; 
@@ -573,16 +569,11 @@ position: relative;
     left: 0px;
 }
 .armor-dog{
-    background-image: url(./assets/armor-dog.png); 
-    height: 172px;
-    width: 153px;
-    position: absolute; 
-    top: 18px;
-    left: 23px;
-    background-repeat: no-repeat;
+    background-image: url(../../../assets/armor-dog.png); 
+   
 }
 .armor-kylon{
-    background-image: url(./assets/armor-kylon.png); 
+    background-image: url(../../../assets/armor-kylon.png); 
     height: 38px;
     width: 38px;
     position: absolute; 
@@ -590,16 +581,12 @@ position: relative;
     left: 0px;
 }
 .armor-kylon2{
-    background-image: url(./assets/armor-kylon2.png); 
-    height: 183px;
-    width: 173px;
-    position: absolute; 
-    top: 4px;
-    left: 19px;
+    background-image: url(../../../assets/armor-kylon2.png); 
+    
     
 }
 .armor-lyk{
-    background-image: url(./assets/armor-lyk.png); 
+    background-image: url(../../../assets/armor-lyk.png); 
     height: 38px;
     width: 38px;
     position: absolute; 
@@ -607,24 +594,16 @@ position: relative;
     left: 0px;
 }
 .armor-molot{
-    background-image: url(./assets/armor-molot.png); 
-    height: 155px;
-    width: 144px;
-    position: absolute; 
-    top: 20px;
-    left: 30px;
+    background-image: url(../../../assets/armor-molot.png); 
+   
       
 }
 .armor-friend{
-    background-image: url(./assets/armor-friend.png); 
-    height: 157px;
-    width: 183px;
-    position: absolute; 
-    top: 21px;
-    left: 13px;
+    background-image: url(../../../assets/armor-friend.png); 
+   
 }
 .armor-bracelet{
-    background-image: url(./assets/armor-bracelet.png); 
+    background-image: url(../../../assets/armor-bracelet.png); 
     height: 38px;
     width: 38px;
     position: absolute; 
@@ -632,15 +611,11 @@ position: relative;
     left: 0px;
 }
 .armor-bracelet2{
-    background-image: url(./assets/armor-bracelet2.png); 
-    height: 150px;
-    width: 185px;
-    position: absolute; 
-    top: 24px;
-    left: 9px;
+    background-image: url(../../../assets/armor-bracelet2.png); 
+   
 }
 .health-skill{
-    background-image: url(./assets/health.png); 
+    background-image: url(../../../assets/health.png); 
     height: 112px;
     width: 117px;
     position: absolute; 
@@ -648,7 +623,7 @@ position: relative;
     left: 15px;
 }
 .health-star{
-    background-image: url(./assets/health-star.png); 
+    background-image: url(../../../assets/health-star.png); 
     height: 58px;
     width: 58px;
     position: absolute; 
@@ -656,7 +631,7 @@ position: relative;
     left: -37px;
 }
 .crit-skill{
-    background-image: url(./assets/crit.png); 
+    background-image: url(../../../assets/crit.png); 
     height: 137px;
     width: 141px;
     position: absolute; 
@@ -664,7 +639,7 @@ position: relative;
     left: 0px;
 }
 .dead-skill{
-    background-image: url(./assets/dead.png); 
+    background-image: url(../../../assets/dead.png); 
     height: 126px;
     width: 125px;
     position: absolute; 
@@ -672,7 +647,7 @@ position: relative;
     left: 12px;
 }
 .shoe{
-    background-image: url(./assets/shoe.png); 
+    background-image: url(../../../assets/shoe.png); 
     height: 96px;
     width: 90px;
     position: absolute; 
@@ -680,7 +655,7 @@ position: relative;
     left: 26px; 
 }
 .e5-skill{
-    background-image: url(./assets/e5-skill.png); 
+    background-image: url(../../../assets/e5-skill.png); 
     height: 117px;
     width: 128px;
     position: absolute; 
@@ -701,24 +676,16 @@ position: relative;
     right: 55px;
 }
 .item-lyk{
-    background-image: url(./assets/item-lyk.png); 
-    height: 169px;
-    width: 166px;
-    position: absolute; 
-    top: 17px;
-    left: 17px;  
+    background-image: url(../../../assets/item-lyk.png); 
+     
 }
 .lyk-text{
     top: 153px;
     right: 55px; 
 }
 .item-dusk{
-    background-image: url(./assets/item-dysk.png); 
-    height: 164px;
-    width: 172px;
-    position: absolute; 
-    top: 17px;
-    left: 10px;  
+    background-image: url(../../../assets/item-dysk.png); 
+   
 }
 .dusk-text{
     top: 153px;
@@ -729,24 +696,16 @@ position: relative;
     right: 55px;  
 }
 .arbalet{
-    background-image: url(./assets/arbalet.png); 
-    height: 159px;
-    width: 153px;
-    position: absolute; 
-    top: 29px;
-    left: 15px;  
+    background-image: url(../../../assets/arbalet.png); 
+     
 }
 .arbalet-text{
     top: 153px;
     right: 55px; 
 }
 .uniform-item{
-    background-image: url(./assets/uniform-item.png); 
-    height: 166px;
-    width: 184px;
-    position: absolute; 
-    top: 29px;
-    left: 15px;
+    background-image: url(../../../assets/uniform-item.png); 
+    
 }
 .uniform-text{
     top: 153px;
@@ -757,48 +716,32 @@ position: relative;
     right: 49px;  
 }
 .super-uniform{
-    background-image: url(./assets/super-uniform.png); 
-    height: 159px;
-    width: 179px;
-    position: absolute; 
-    top: 21px;
-    left: 9px;
+    background-image: url(../../../assets/super-uniform.png); 
+   
 }
 .super-uniform-text{
     top: 150px;
     right: 49px;
 }
 .item-super-ring{
-    background-image: url(./assets/item-syper-ring.png); 
-    height: 144px;
-    width: 150px;
-    position: absolute; 
-    top: 33px;
-    left: 32px; 
+    background-image: url(../../../assets/item-syper-ring.png); 
+    
 }
 .text-ring-item2{
     top: 147px;
     right: 46px;
 }
 .item-zombi{
-    background-image: url(./assets/item-zombi.png); 
-    height: 170px;
-    width: 195px;
-    position: absolute; 
-    top: 11px;
-    left: 8px; 
+    background-image: url(../../../assets/item-zombi.png); 
+    
 }
 .text-zombi{
     top: 150px;
     right: 63px;
 }
 .item-super-kylon{
-    background-image: url(./assets/item-syper-kylon.png); 
-    height: 177px;
-    width: 169px;
-    position: absolute; 
-    top: 9px;
-    left: 16px;    
+    background-image: url(../../../assets/item-syper-kylon.png); 
+     
 }
 .text-super-kylon{
     top: 145px;
@@ -809,24 +752,16 @@ position: relative;
     right: 72px; 
 }
 .item-uniform-black{
-    background-image: url(./assets/items-uniform-black.png); 
-    height: 159px;
-    width: 151px;
-    position: absolute; 
-    top: 22px;
-    left: 21px;    
+    background-image: url(../../../assets/items-uniform-black.png); 
+    
 }
 .black-uniform-text{
     top: 153px;
     right: 56px;   
 }
 .item-blue-ring{
-    background-image: url(./assets/item-ring-blue.png); 
-    height: 143px;
-    width: 155px;
-    position: absolute; 
-    top: 31px;
-    left: 23px;  
+    background-image: url(../../../assets/item-ring-blue.png); 
+    
 }
 .blue-ring-text{
     top: 145px;
@@ -835,7 +770,7 @@ position: relative;
 
 
 .panel-arrow{
-    background-image: url(./assets/panel-arrow.png); 
+    background-image: url(../../../assets/panel-arrow.png); 
     height: 69px;
     width: 56px;
     position: absolute; 
@@ -843,15 +778,11 @@ position: relative;
     left: 316px; 
 }
 .skrynia2{
-    background-image: url(./assets/skrynia.png); 
-    height: 116px;
-    width: 154px;
-    position: absolute; 
-    top: 75px;
-    left: 49px; 
+    background-image: url(../../../assets/skrynia.png); 
+     
 }
 .monet-skrynia{
-    background-image: url(./assets/monet-skrynia.png); 
+    background-image: url(../../../assets/monet-skrynia.png); 
     height: 73px;
     width: 73px;
     position: absolute; 
@@ -859,15 +790,15 @@ position: relative;
     left: 164px; 
 }
 .equipment2{
-    background-image: url(./assets/equipment2.png); 
+    background-image: url(../../../assets/equipment2.png); 
     height: 162px;
     width: 187px;
     position: absolute; 
-    top: -38px;
-    left: 96px; 
+    top: -61px;
+    left: 98px;
 }
 .map2{
-    background-image: url(./assets/map.png); 
+    background-image: url(../../../assets/map.png); 
     height: 124px;
     width: 171px;
     position: absolute; 
@@ -875,26 +806,14 @@ position: relative;
     left: 45px; 
 }
 .menu-arrows{
-    background-image: url(./assets/menu-arrows.png); 
-    height: 165px;
-    width: 142px;
-    position: absolute; 
-    top: 45px;
-    left: 55px; 
+    background-image: url(../../../assets/menu-arrows.png); 
+    
 }
 .menu-round{
-    background-image: url(./assets/menu-round.png); 
-    height: 72px;
-    width: 72px;
-    position: absolute; 
-    top: -27px;
-    left: 164px; 
+    background-image: url(../../../assets/menu-round.png); 
+   
 }
 .menu-cil{
-    background-image: url(./assets/menu-cil.png); 
-    height: 154px;
-    width: 150px;
-    position: absolute; 
-    top: 53px;
-    left: 55px; 
+    background-image: url(../../../assets/menu-cil.png); 
+    
 }
