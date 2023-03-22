@@ -1,0 +1,172 @@
+.color-violet, .color-super-violet{
+    background-color: #4E2281;
+    border: 5px solid #824BC2;
+    &::before {
+        background-color: #824BC2;
+        content: "";
+        width: 45px;
+        height: 45px;
+        display: block;
+        position: absolute;
+        top: -4px;
+        left: -4px;
+        border-radius: 13px 0px 13px 0px;
+    } 
+}
+
+.color-blue{
+    background-color: #194BAE;
+    border: 5px solid #476DBE;
+    &::before {
+        background-color: #476DBE;
+        content: "";
+        width: 45px;
+        height: 45px;
+        display: block;
+        position: absolute;
+        top: -4px;
+        left: -4px;
+        border-radius: 13px 0px 13px 0px;
+    }
+}
+.properties-item{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    padding: 10px;
+    
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+.properties-image{
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat
+}
+.armor-ring{
+    background-image: url(../../../../../assets/armor-ring.png); 
+    height: 38px;
+    width: 38px;
+    position: absolute; 
+    top: -1px;
+    left: 0px;
+}
+.armor-kylon{
+    background-image: url(../../../../../assets/armor-kylon.png); 
+    height: 38px;
+    width: 38px;
+    position: absolute; 
+    top: -1px;
+    left: 0px;
+}
+.armor-weapon{
+    background-image: url(../../../../../assets/armor-lyk.png); 
+    height: 38px;
+    width: 38px;
+    position: absolute; 
+    top: -1px;
+    left: 0px;
+}
+.armor-friend{
+    background-image: url(../../../../../assets/armor-foot.png); 
+    height: 38px;
+    width: 38px;
+    position: absolute; 
+    top: -1px;
+    left: 0px;
+}
+.armor-uniform{
+    background-image: url(../../../../../assets/armor-uniform.png); 
+    height: 38px;
+    width: 38px;
+    position: absolute; 
+    top: -1px;
+    left: 0px;
+}
+.armor-bracelet{
+    background-image: url(../../../../../assets/armor-bracelet.png); 
+    height: 38px;
+    width: 38px;
+    position: absolute; 
+    top: -1px;
+    left: 0px;
+}
+.bottom-frame{
+    background-image: url(../../../../../assets/bottom-frame.png); 
+    height: 106px;
+    width: 106px;
+    position: absolute; 
+    top: 89px;
+    left: -6px;
+}
+.top-frame{
+    background-image: url(../../../../../assets/top-frame.png); 
+    height: 106px;
+    width: 106px;
+    position: absolute; 
+    top: -7px;
+    left: 89px;
+}
+.text-item{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 39px;
+    text-shadow: 5px 1px 3px black;
+    font-weight: bold;
+    position: absolute;
+}
+.text-ring-item{
+    top: 153px;
+    right: 55px;
+}
+.propierties-armor{
+    width: 190px;
+    height: 190px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #4E2281;
+    border: 5px solid #824BC2;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+
+    &::before {
+        background-color: #824BC2;
+        content: "";
+        width: 45px;
+        height: 45px;
+        display: block;
+        position: absolute;
+        top: -4px;
+        left: -4px;
+        border-radius: 13px 0px 13px 0px;
+    }
+}
+.color-orange {
+    background-color: #AC7125;
+    border: 5px solid #B99036;
+    border-radius: 15px;
+    &::before {
+        background-color: #B99036;
+        content: "";
+        width: 45px;
+        height: 45px;
+        display: block;
+        position: absolute;
+        top: -4px;
+        left: -4px;
+        border-radius: 13px 0px 13px 0px;
+    }
+
+}
+.arrow{
+   
+    height: 86px;
+    width: 70px;
+    position: absolute; 
+    top: 114px;
+    left: 148px;
+}

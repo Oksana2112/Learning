@@ -1,0 +1,7 @@
+<div class="bonuses-properties" >
+  <div class="properties-image"><img src="{{model.image}}"></div>
+  <div class="shadow" *ngIf="model.accessible==true"></div>
+  <div class="shoe" *ngIf="model.accessible==true"></div>
+  <div class="health-star" *ngIf="model.distribution==true" ></div>
+  <div class="arrow-{{model.actualLevel}}"></div>
+</div>

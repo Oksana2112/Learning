@@ -1,0 +1,8 @@
+<div class="properties-item color-{{model.rank}}">
+  <div class="armor-{{model.type}}"></div>
+  <div class="properties-image" ><img src="{{model.image}}"></div>
+  <div class="bottom-frame" *ngIf="model.rank=='super-violet'"></div>
+  <div class="top-frame" *ngIf="model.rank=='super-violet'"></div>
+  <div class="arrow" *ngIf="model.newRank"></div>
+  <div class="text-ring-item text-item">Ур.{{model.level}}</div>
+</div>

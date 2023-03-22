@@ -1,0 +1,96 @@
+.bonuses-properties {
+    width: 170px;
+    height: 170px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #B5B9A8;
+    border: 15px solid #868686;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+.properties-image {
+    height: 100%;
+    position: absolute;
+    top: -9px;
+    left: -7px;
+    background-repeat: no-repeat
+}
+
+.shadow {
+    width: 170px;
+    height: 170px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    opacity: 0.4;
+    background-color: #302e2e;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+}
+
+
+.health-skill {
+    background-image: url(../../../../assets/health.png);
+    height: 112px;
+    width: 117px;
+    position: absolute;
+    top: -9px;
+    left: -7px;
+}
+
+.health-star {
+    background-image: url(../../../../assets/health-star.png);
+    height: 58px;
+    width: 58px;
+    position: absolute;
+    top: -33px;
+    left: -37px;
+}
+
+.crit-skill {
+    background-image: url(../../../../assets/crit.png);
+    height: 137px;
+    width: 141px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+.dead-skill {
+    background-image: url(../../../../assets/dead.png);
+    height: 126px;
+    width: 125px;
+    position: absolute;
+    top: -10px;
+    left: -1px;
+}
+
+.arrow-second {
+    background-image: url(../../../../assets/level2.png);
+    height: 47px;
+    width: 41px;
+    position: absolute;
+    top: 6px;
+    left: 90px;
+}
+
+.arrow-third {
+    background-image: url(../../../../assets/level3.png);
+    height: 51px;
+    width: 40px;
+    position: absolute;
+    top: -8px;
+    left: 65px
+}
+.shoe{
+    background-image: url(../../../../assets/shoe.png);
+    height: 96px;
+    width: 90px;
+    position: absolute;
+    top: 1px;
+    left: 4px;
+}
